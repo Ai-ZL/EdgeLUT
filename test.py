@@ -129,21 +129,4 @@ if __name__ == "__main__":
             print('Dataset {} | AVG LUT PSNR: {:.4f} SSIM: {:.4f}'.format(test_datasets[j], np.mean(np.asarray(psnrs)), np.mean(np.asarray(ssims))))
 
         
-        
-"""
-Reference:
-HKLUT-S: msb:hdb-lsb:hdv-act:gelu-nf:64-2x2:
-Dataset Set5 | AVG LUT PSNR: 30.32 SSIM: 0.8587
-Dataset Set14 | AVG LUT PSNR: 27.36 SSIM: 0.7475
-Dataset B100 | AVG LUT PSNR: 26.73 SSIM: 0.7059
-Dataset Urban100 | AVG LUT PSNR: 24.21 SSIM: 0.7102
-Dataset Manga109 | AVG LUT PSNR: 27.39 SSIM: 0.8520
-
-
-HKLUT-L: msb:hdb-lsb:hdb-act:gelu-nf:64-2x1x2:
-Dataset Set5 | AVG LUT PSNR: 30.42 SSIM: 0.8606
-Dataset Set14 | AVG LUT PSNR: 27.45 SSIM: 0.7497
-Dataset B100 | AVG LUT PSNR: 26.79 SSIM: 0.7077
-Dataset Urban100 | AVG LUT PSNR: 24.29 SSIM: 0.7131
-Dataset Manga109 | AVG LUT PSNR: 27.55 SSIM: 0.8548
-"""
+    
