@@ -8,6 +8,7 @@ conda activate edgelut
 pip install -r requirements.txt
 ```
 
+```
 project-root/
 │
 ├── 📂 checkpoints/              
@@ -33,4 +34,5 @@ project-root/
 │
 ├── transfer.py               # transfer from model to LUT
 ├── requirements.txt       
-└── README.md            
+└── README.md
+```
